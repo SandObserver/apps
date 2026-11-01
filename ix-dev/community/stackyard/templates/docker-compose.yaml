@@ -30,8 +30,6 @@
   {% do c1.depends.add_dependency(values.consts.perms_container_name, "service_completed_successfully") %}
 {% endif %}
 
-{% do tpl.notes.add_info("To change the User ID or Group ID after install, first change the owner of the data and icons datasets to match. Stackyard cannot write to folders owned by another user.") %}
-
 {% do tpl.portals.add(values.network.web_port) %}
 
 {{ tpl.render() | tojson }}

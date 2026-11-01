@@ -3,7 +3,7 @@ capabilities: []
 categories:
 - productivity
 changelog_url: https://github.com/SandObserver/Stackyard/releases
-date_added: '2026-10-28'
+date_added: '2026-10-30'
 description: Stackyard is a self-hosted homelab dashboard. It shows your apps as a
   grid of tiles and folders, with widgets for media, downloads, DNS, backups, disk
   health and weather, and health badges that appear only when a service has a problem.
